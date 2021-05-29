@@ -1,6 +1,6 @@
 # leetcode-recode
 
-记录一下在 leetcode 刷的题目
+记录一下在 [leetcode](https://www.leetcode.com) 刷的题目
 
 > flag：每天至少完成每日一题！
 
