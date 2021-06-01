@@ -11,3 +11,7 @@
 20210531
 
 + [342. 4的幂](./src/main/java/org/example/leetcode/Q0342.java)
+
+20210601
+
++ [1744. 你能在你最喜欢的那天吃到你最喜欢的糖果吗？](./src/main/java/org/example/leetcode/Q1744.java)
