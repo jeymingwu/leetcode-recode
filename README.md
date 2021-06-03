@@ -19,3 +19,7 @@
 20210602
 
 + [523. 连续的子数组和](./src/main/java/org/example/leetcode/Q0523.java)
+
+20210603
+
++ [525. 连续数组](./src/main/java/org/example/leetcode/Q0525.java)
