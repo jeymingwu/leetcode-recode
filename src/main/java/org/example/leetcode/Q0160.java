@@ -13,17 +13,6 @@ import java.util.Map;
  * @author : jeymingwu
  * @date : 2021-06-04
  **/
-
-class ListNode {
-    public int val;
-    public ListNode next;
-
-    ListNode(int x) {
-        val = x;
-        next = null;
-    }
-}
-
 public class Q0160 {
 
     public ListNode getIntersectionNode(ListNode headA, ListNode headB) {
