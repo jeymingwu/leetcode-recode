@@ -14,19 +14,39 @@ public class Q0203 {
 
     public ListNode removeElements(ListNode head, int val) {
 
-        ListNode newHead = new ListNode();
-        ListNode listNode = new ListNode();
-        newHead.next = listNode;
+        // 方法一
+//        ListNode newHead = new ListNode();
+//        ListNode listNode = new ListNode();
+//        newHead.next = listNode;
+//
+//        for (ListNode node = head; node != null; node = node.next) {
+//            if (node.val != val) {
+//                ListNode tmp = new ListNode(node.val);
+//                listNode.next = tmp;
+//                listNode = listNode.next;
+//            }
+//        }
+//
+//        return newHead.next.next;
 
-        for (ListNode node = head; node != null; node = node.next) {
-            if (node.val != val) {
-                ListNode tmp = new ListNode(node.val);
-                listNode.next = tmp;
-                listNode = listNode.next;
-            }
+        // 方法二
+        while (head != null && head.val == val) {
+            head = head.next;
         }
 
-        return newHead.next.next;
+        if (head == null) {
+            return null;
+        }
+
+        ListNode node = head;
+        while (node.next != null) {
+            if (node.next.val == val) {
+                node.next = node.next.next;
+            } else {
+                node = node.next;
+            }
+        }
+        return head;
     }
 
 }
