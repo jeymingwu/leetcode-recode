@@ -39,3 +39,7 @@
 20210606
 
 + [474. 一和零](./src/main/java/org/example/leetcode/Q0474.java)
+
+20210607
+
++ [494. 目标和](./src/main/java/org/example/leetcode/Q0494.java)
