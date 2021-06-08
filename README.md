@@ -8,7 +8,7 @@
 | :----: | :----: | :----: | :----: | :----: | :----: | :----: | :----: |
 | 20210530 | 231 | 2的幂 | 简单 | 位运算、数学 | [Link](https://leetcode-cn.com/problems/power-of-two/) | [Link](./src/main/java/org/example/leetcode/Q0231.java) | |
 | 20210531 | 342 | 4的幂 | 简单 | 位运算 | [Link](https://leetcode-cn.com/problems/power-of-four/) | [Link](./src/main/java/org/example/leetcode/Q0342.java) | |
-| 20210601 | 1744 | 你能在你最喜欢的那天吃到你最喜欢的糖果吗？ | 中等 | 数学 | [Link](https://leetcode-cn.com/problems/can-you-eat-your-favorite-candy-on-your-favorite-day/) | [Link](https://leetcode-cn.com/problems/power-of-four/) | [Link](./src/main/java/org/example/leetcode/Q1744.java) | |
+| 20210601 | 1744 | 你能在你最喜欢的那天吃到你最喜欢的糖果吗？ | 中等 | 数学 | [Link](https://leetcode-cn.com/problems/can-you-eat-your-favorite-candy-on-your-favorite-day/) | [Link](./src/main/java/org/example/leetcode/Q1744.java) | |
 | 20210602 | 523 | 连续的子数组和 | 中等 | 数学、动态规划 | [Link](https://leetcode-cn.com/problems/continuous-subarray-sum/) | [Link](./src/main/java/org/example/leetcode/Q0523.java) | |
 | 20210603 | 525 | 连续数组 | 中等 | 哈希表 | [Link](https://leetcode-cn.com/problems/contiguous-array/) | [Link](./src/main/java/org/example/leetcode/Q0525.java) | |
 | 20210604 | 160 | 相交链表 | 简单 | 链表 | [Link](https://leetcode-cn.com/problems/intersection-of-two-linked-lists/) | [Link](./src/main/java/org/example/leetcode/Q0160.java) | |
