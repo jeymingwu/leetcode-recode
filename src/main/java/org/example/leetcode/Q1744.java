@@ -45,7 +45,7 @@ public class Q1744 {
             long minCount = day; // 一天一颗，最少能吃多少糖果
             long targetCount = sum[type]; // 目标吃完多少糖果
 
-            // 因 day 是从 0 开始计算，那么 maxCount > （targetCount - cap）表示若前一天能吃完目标糖果且至少多一个
+            // 因 day 是从 0 开始计算，那么 maxCount > （targetCount - cap）表示若前一天能吃完目标糖果且至少多一个（即使每天吃最大分量任然有机会吃到喜爱的糖）
             // minCount < (targetCount + favCount) 表示目标糖果足够
             if (maxCount > (targetCount - cap) && minCount < (targetCount + favCount)) {
                 record[i] = true;
