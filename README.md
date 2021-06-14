@@ -20,3 +20,4 @@
 | 20210606 | 474 | 一和零 | 中等 | 动态规划 | [Link](https://leetcode-cn.com/problems/ones-and-zeroes/) | [Link](./src/main/java/org/example/leetcode/Q0474.java) | * |
 | 20210607 | 494 | 目标和 | 中等 | 深度优先搜索、动态规划 | [Link](https://leetcode-cn.com/problems/target-sum/) | [Link](./src/main/java/org/example/leetcode/Q0494.java) | 深度优先搜索较容易理解但效率较低 |
 | 20210608 | 1049 | 最后一块石头的重量 II | 中等 | 深度优先搜索、动态规划 | [Link](https://leetcode-cn.com/problems/last-stone-weight-ii/) | [Link](./src/main/java/org/example/leetcode/Q1049.java) | * |
+| 20210614 | 374 | 猜数字大小 | 简单 | 二分查找 | [Link](https://leetcode-cn.com/problems/guess-number-higher-or-lower/) | [Link](./src/main/java/org/example/leetcode/Q0374.java) | * |
