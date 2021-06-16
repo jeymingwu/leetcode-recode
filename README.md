@@ -23,3 +23,4 @@
 | 20210614 | 374 | 猜数字大小 | 简单 | 二分查找 | [Link](https://leetcode-cn.com/problems/guess-number-higher-or-lower/) | [Link](./src/main/java/org/example/leetcode/Q0374.java) | * |
 | 20210615 | 852 | 山脉数组的峰顶索引 | 简单 | 二分查找 | [Link](https://leetcode-cn.com/problems/peak-index-in-a-mountain-array/) | [Link](./src/main/java/org/example/leetcode/Q0852.java) | * |
 | 20210615 | 162 | 寻找峰值 | 中等 | 数组、二分查找 | [Link](https://leetcode-cn.com/problems/find-peak-element/) | [Link](./src/main/java/org/example/leetcode/Q0162.java) | * |
+| 20210616 | 877 | 石子游戏 | 中等 | 极小化极大、数学、动态规划 | [Link](https://leetcode-cn.com/problems/stone-game/) | [Link](./src/main/java/org/example/leetcode/Q0877.java) | 先选肯定有机会获胜 |
