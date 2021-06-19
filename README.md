@@ -24,3 +24,4 @@
 | 20210615 | 852 | 山脉数组的峰顶索引 | 简单 | 二分查找 | [Link](https://leetcode-cn.com/problems/peak-index-in-a-mountain-array/) | [Link](./src/main/java/org/example/leetcode/Q0852.java) | * |
 | 20210615 | 162 | 寻找峰值 | 中等 | 数组、二分查找 | [Link](https://leetcode-cn.com/problems/find-peak-element/) | [Link](./src/main/java/org/example/leetcode/Q0162.java) | * |
 | 20210616 | 877 | 石子游戏 | 中等 | 极小化极大、数学、动态规划 | [Link](https://leetcode-cn.com/problems/stone-game/) | [Link](./src/main/java/org/example/leetcode/Q0877.java) | 先选肯定有机会获胜 |
+| 20210617 | 65 | 有效数字 | 困难 | 数学、字符串 | [Link](https://leetcode-cn.com/problems/valid-number/) | [Link](./src/main/java/org/example/leetcode/Q0065.java) | |
