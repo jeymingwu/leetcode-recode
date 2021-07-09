@@ -26,3 +26,4 @@
 | 20210616 | 877 | 石子游戏 | 中等 | 极小化极大、数学、动态规划 | [Link](https://leetcode-cn.com/problems/stone-game/) | [Link](./src/main/java/org/example/leetcode/Q0877.java) | 先选肯定有机会获胜 |
 | 20210617 | 65 | 有效数字 | 困难 | 数学、字符串 | [Link](https://leetcode-cn.com/problems/valid-number/) | [Link](./src/main/java/org/example/leetcode/Q0065.java) | |
 | 20210623 | 剑指 Offer 15 | 二进制中1的个数 | 简单 | 位运算 | [Link](https://leetcode-cn.com/problems/er-jin-zhi-zhong-1de-ge-shu-lcof/) | [Link](./src/main/java/org/example/jianzhioffer/Q0015.java) | |
+| 20210710 | 面试题 17.10 | 主要元素 | 简单 | 数组、计数 | [Link](https://leetcode-cn.com/problems/find-majority-element-lcci/) | [Link](./src/main/java/org/example/interview17/Q0010.java) | |
