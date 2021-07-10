@@ -6,6 +6,7 @@
 
 | 日期 | 编号 | 题目 | 难度 | 类型 | 链接 | 题解 | 备注 |
 | :----: | :----: | :----: | :----: | :----: | :----: | :----: | :----: |
+| 20210711 | 217 | 存在重复元素 | 简单 | 数组、哈希表、排序 | [Link](https://leetcode-cn.com/problems/contains-duplicate/) | [Link](./src/main/java/org/example/leetcode/Q0217.java) | |
 | 20210711 | 274 | H指数 | 中等 | 数组、计数排序、排序 | [Link](https://leetcode-cn.com/problems/h-index/) | [Link](./src/main/java/org/example/leetcode/Q0274.java) | |
 | 20210710 | 891 | 基于时间的键值存储 | 中等 | 设计、哈希表、字符串、二分查找 | [Link](https://leetcode-cn.com/problems/time-based-key-value-store/) | [Link](./src/main/java/org/example/leetcode/Q0981.java) | |
 | 20210709 | 面试题 17.10 | 主要元素 | 简单 | 数组、计数 | [Link](https://leetcode-cn.com/problems/find-majority-element-lcci/) | [Link](./src/main/java/org/example/interview17/Q0010.java) | |
