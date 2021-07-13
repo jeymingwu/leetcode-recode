@@ -63,17 +63,79 @@ public class Q0350 {
 //        }
 //        return res;
 
+        // 方法一：哈希表（改进版）
+//        if (nums1.length > nums2.length) {
+//            return intersect(nums2, nums1);
+//        }
+//
+//        int length1 = nums1.length, length2 = nums2.length;
+//        HashMap<Integer, Integer> map = new HashMap<>();
+//
+//        for (int i = 0; i < length1; ++i) {
+//            map.put(nums1[i], map.getOrDefault(nums1[i], 0) + 1);
+//        }
+//
+//        int index = 0;
+//        int[] res = new int[length1];
+//        for (int i = 0; i < length2; ++i) {
+//            Integer count = map.getOrDefault(nums2[i], 0);
+//            if (count > 0) {
+//                res[index++] = nums2[i];
+//                count--;
+//                if (count > 0) {
+//                    map.put(nums2[i], count);
+//                } else {
+//                    map.remove(nums2[i]);
+//                }
+//            }
+//        }
+//
+//        return Arrays.copyOfRange(res, 0, index);
+
+
         // 方法二：排序 + 双指针
+//        Arrays.sort(nums1);
+//        Arrays.sort(nums2);
+//
+//        int length1 = nums1.length, length2 = nums2.length;
+//
+//        ArrayList<Integer> list = new ArrayList<>();
+//        for (int i = 0, j = 0; i < length1 && j < length2;) {
+//
+//            if (nums1[i] == nums2[j]) {
+//                list.add(nums1[i]);
+//                ++i;
+//                ++j;
+//            } else if (nums1[i] > nums2[j]) {
+//                ++j;
+//            } else {
+//                ++i;
+//            }
+//
+//        }
+//
+//        int size = list.size();
+//        int[] res = new int[size];
+//        for (int i = 0; i < size; ++i) {
+//            res[i] = list.get(i);
+//        }
+//        return res;
+
+        // 方法二：排序 + 双指针（改进版）
+        if (nums1.length > nums2.length) {
+            return intersect(nums2, nums1);
+        }
+
         Arrays.sort(nums1);
         Arrays.sort(nums2);
 
-        int length1 = nums1.length, length2 = nums2.length;
+        int index = 0;
+        int[] res = new int[nums1.length];
 
-        ArrayList<Integer> list = new ArrayList<>();
-        for (int i = 0, j = 0; i < length1 && j < length2;) {
+        for (int i = 0, j = 0; i < nums1.length && j < nums2.length;) {
 
             if (nums1[i] == nums2[j]) {
-                list.add(nums1[i]);
+                res[index++] = nums1[i];
                 ++i;
                 ++j;
             } else if (nums1[i] > nums2[j]) {
@@ -84,12 +146,7 @@ public class Q0350 {
 
         }
 
-        int size = list.size();
-        int[] res = new int[size];
-        for (int i = 0; i < size; ++i) {
-            res[i] = list.get(i);
-        }
-        return res;
+        return Arrays.copyOfRange(res, 0, index);
 
     }
 
