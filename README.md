@@ -6,6 +6,7 @@
 
 | 日期 | 编号 | 题目 | 难度 | 类型 | 链接 | 题解 | 备注 |
 | :----: | :----: | :----: | :----: | :----: | :----: | :----: | :----: |
+| 20210713 | 121 | 买卖股票的最佳时机 | 简单 | 数组、动态规划 | [Link](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock/) | [Link](./src/main/java/org/example/leetcode/Q0121.java) | |
 | 20210713 | 350 | 两个数组的交集 II | 简单 | 数组、哈希表、双指针、二分查找、排序 | [Link](https://leetcode-cn.com/problems/intersection-of-two-arrays-ii/) | [Link](./src/main/java/org/example/leetcode/Q0350.java) | |
 | 20210712 | 88 | 合并两个有序数组 | 简单 | 数组、双指针、排序 | [Link](https://leetcode-cn.com/problems/merge-sorted-array/) | [Link](./src/main/java/org/example/leetcode/Q0088.java) | |
 | 20210712 | 1 | 两数之和 | 简单 | 数组、哈希表 | [Link](https://leetcode-cn.com/problems/two-sum/) | [Link](./src/main/java/org/example/leetcode/Q0001.java) | |
