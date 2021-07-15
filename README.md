@@ -6,6 +6,7 @@
 
 | 日期 | 编号 | 题目 | 难度 | 类型 | 链接 | 题解 | 备注 |
 | :----: | :----: | :----: | :----: | :----: | :----: | :----: | :----: |
+| 20210715 | 73 | 矩阵置零 | 中等 | 数组、哈希表、矩阵 | [Link](https://leetcode-cn.com/problems/set-matrix-zeroes/) | [Link](./src/main/java/org/example/leetcode/Q0073.java) | |
 | 20210714 | 118 | 杨辉三角 | 简单 | 数组、动态规划 | [Link](https://leetcode-cn.com/problems/pascals-triangle/) | [Link](./src/main/java/org/example/leetcode/Q0118.java) | |
 | 20210714 | 566 | 重塑矩阵 | 简单 | 数组、矩阵、模拟 | [Link](https://leetcode-cn.com/problems/reshape-the-matrix/) | [Link](./src/main/java/org/example/leetcode/Q0566.java) | |
 | 20210713 | 121 | 买卖股票的最佳时机 | 简单 | 数组、动态规划 | [Link](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock/) | [Link](./src/main/java/org/example/leetcode/Q0121.java) | |
