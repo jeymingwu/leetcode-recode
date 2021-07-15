@@ -24,26 +24,49 @@ public class Q0073 {
 
     public void setZeroes(int[][] matrix) {
 
-        List<Integer[]> list = new ArrayList<>();
+        // 方法一：
+//        List<Integer[]> list = new ArrayList<>();
+//
+//        for (int i = 0; i < matrix.length; ++i) {
+//            for (int j = 0; j < matrix[i].length; ++j) {
+//                if (matrix[i][j] == 0) {
+//                    Integer[] nums = new Integer[2];
+//                    nums[0] = i;
+//                    nums[1] = j;
+//                    list.add(nums);
+//                }
+//            }
+//        }
+//
+//        for (int i = 0; i < list.size(); ++i) {
+//            Integer[] nums = list.get(i);
+//            for (int j = 0; j < matrix[nums[0]].length; ++j) {
+//                matrix[nums[0]][j] = 0;
+//            }
+//            for (int j = 0; j < matrix.length; ++j) {
+//                matrix[j][nums[1]] = 0;
+//            }
+//        }
 
-        for (int i = 0; i < matrix.length; ++i) {
-            for (int j = 0; j < matrix[i].length; ++j) {
+        // 方法二：
+        int m = matrix.length, n = matrix[0].length;
+
+        boolean[] x = new boolean[m];
+        boolean[] y = new boolean[n];
+
+        for (int i = 0; i < m; ++i) {
+            for (int j = 0; j < n; ++j) {
                 if (matrix[i][j] == 0) {
-                    Integer[] nums = new Integer[2];
-                    nums[0] = i;
-                    nums[1] = j;
-                    list.add(nums);
+                    x[i] = y[j] = true;
                 }
             }
         }
 
-        for (int i = 0; i < list.size(); ++i) {
-            Integer[] nums = list.get(i);
-            for (int j = 0; j < matrix[nums[0]].length; ++j) {
-                matrix[nums[0]][j] = 0;
-            }
-            for (int j = 0; j < matrix.length; ++j) {
-                matrix[j][nums[1]] = 0;
+        for (int i = 0; i < m; ++i) {
+            for (int j = 0; j < n; ++j) {
+                if (x[i] || y[j]) {
+                    matrix[i][j] = 0;
+                }
             }
         }
     }
