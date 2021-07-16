@@ -6,6 +6,7 @@
 
 | 日期 | 编号 | 题目 | 难度 | 类型 | 链接 | 题解 | 备注 |
 | :----: | :----: | :----: | :----: | :----: | :----: | :----: | :----: |
+| 20210717 | 剑指 Offer 42 | 连续子数组的最大和 | 简单 | 数组、分治、动态规划 | [Link](https://leetcode-cn.com/problems/lian-xu-zi-shu-zu-de-zui-da-he-lcof/) | [Link](./src/main/java/org/example/jianzhioffer/Q0042.java) | |
 | 20210716 | 242 | 有效的字母异位词 | 简单 | 哈希表、字符串、排序 | [Link](https://leetcode-cn.com/problems/valid-anagram/) | [Link](./src/main/java/org/example/leetcode/Q0242.java) | |
 | 20210716 | 383 | 赎金信 | 简单 | 哈希表、字符串、计数 | [Link](https://leetcode-cn.com/problems/ransom-note/) | [Link](./src/main/java/org/example/leetcode/Q0383.java) | |
 | 20210716 | 387 | 字符串中的第一个唯一字符 | 简单 | 队列、哈希表、字符串、计数 | [Link](https://leetcode-cn.com/problems/first-unique-character-in-a-string/) | [Link](./src/main/java/org/example/leetcode/Q0387.java) | |
