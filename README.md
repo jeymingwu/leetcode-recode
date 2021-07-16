@@ -6,6 +6,7 @@
 
 | 日期 | 编号 | 题目 | 难度 | 类型 | 链接 | 题解 | 备注 |
 | :----: | :----: | :----: | :----: | :----: | :----: | :----: | :----: |
+| 20210716 | 383 | 赎金信 | 简单 | 哈希表、字符串、计数 | [Link](https://leetcode-cn.com/problems/ransom-note/) | [Link](./src/main/java/org/example/leetcode/Q0383.java) | |
 | 20210716 | 387 | 字符串中的第一个唯一字符 | 简单 | 队列、哈希表、字符串、计数 | [Link](https://leetcode-cn.com/problems/first-unique-character-in-a-string/) | [Link](./src/main/java/org/example/leetcode/Q0387.java) | |
 | 20210716 | 34 | 在排序数组中查找元素的第一个和最后一个位置 | 中等 | 数组、二分查找 | [Link](https://leetcode-cn.com/problems/find-first-and-last-position-of-element-in-sorted-array/) | [Link](./src/main/java/org/example/leetcode/Q0034.java) | |
 | 20210716 | 剑指 Offer 53 - I | 在排序数组中查找数字 I | 简单 | 数组、二分查找 | [Link](https://leetcode-cn.com/problems/zai-pai-xu-shu-zu-zhong-cha-zhao-shu-zi-lcof/) | [Link](./src/main/java/org/example/jianzhioffer/Q0053.java) | |
