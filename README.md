@@ -6,6 +6,7 @@
 
 | 日期 | 编号 | 题目 | 难度 | 类型 | 链接 | 题解 | 备注 |
 | :----: | :----: | :----: | :----: | :----: | :----: | :----: | :----: |
+| 20210716 | 剑指 Offer 53 - I | 在排序数组中查找数字 I | 简单 | 数组、二分查找 | [Link](https://leetcode-cn.com/problems/zai-pai-xu-shu-zu-zhong-cha-zhao-shu-zi-lcof/) | [Link](./src/main/java/org/example/jianzhioffer/Q0053.java) | |
 | 20210715 | 36 | 有效的数独 | 中等 | 数组、哈希表、矩阵 | [Link](https://leetcode-cn.com/problems/valid-sudoku/) | [Link](./src/main/java/org/example/leetcode/Q0036.java) | |
 | 20210715 | 73 | 矩阵置零 | 中等 | 数组、哈希表、矩阵 | [Link](https://leetcode-cn.com/problems/set-matrix-zeroes/) | [Link](./src/main/java/org/example/leetcode/Q0073.java) | |
 | 20210714 | 118 | 杨辉三角 | 简单 | 数组、动态规划 | [Link](https://leetcode-cn.com/problems/pascals-triangle/) | [Link](./src/main/java/org/example/leetcode/Q0118.java) | |
