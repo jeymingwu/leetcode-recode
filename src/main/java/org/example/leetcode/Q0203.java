@@ -29,24 +29,36 @@ public class Q0203 {
 //
 //        return newHead.next.next;
 
-        // 方法二
-        while (head != null && head.val == val) {
-            head = head.next;
-        }
+//        // 方法二
+//        while (head != null && head.val == val) {
+//            head = head.next;
+//        }
+//
+//        if (head == null) {
+//            return null;
+//        }
+//
+//        ListNode node = head;
+//        while (node.next != null) {
+//            if (node.next.val == val) {
+//                node.next = node.next.next;
+//            } else {
+//                node = node.next;
+//            }
+//        }
+//        return head;
 
-        if (head == null) {
-            return null;
-        }
+        ListNode p = head, res = p;
+        while (p != null && p.next != null) {
 
-        ListNode node = head;
-        while (node.next != null) {
-            if (node.next.val == val) {
-                node.next = node.next.next;
+            if (p.next.val == val) {
+                p.next = p.next.next;
             } else {
-                node = node.next;
+                p = p.next;
             }
         }
-        return head;
+
+        return (res != null && res.val == val) ? res.next : res;
     }
 
 }
