@@ -6,7 +6,8 @@
 
 | 日期 | 编号 | 题目 | 难度 | 类型 | 链接 | 题解 | 备注 |
 | :----: | :----: | :----: | :----: | :----: | :----: | :----: | :----: |
-| 20210717 | 面试题 10.02 | 变位词组 | 中等 | 哈希表、字符串、排序 | [Link](https://leetcode-cn.com/problems/group-anagrams-lcci/) | [Link](./src/main/java/org/example/interview10/Q0002.java) | |
+| 20210718 | 206 | 反转链表 | 简单 | 递归、链表 | [Link](https://leetcode-cn.com/problems/reverse-linked-list/) | [Link](./src/main/java/org/example/leetcode/Q0206.java) | |
+| 20210718 | 面试题 10.02 | 变位词组 | 中等 | 哈希表、字符串、排序 | [Link](https://leetcode-cn.com/problems/group-anagrams-lcci/) | [Link](./src/main/java/org/example/interview10/Q0002.java) | |
 | 20210717 | 21 | 合并两个有序链表 | 简单 | 递归、链表 | [Link](https://leetcode-cn.com/problems/merge-two-sorted-lists/) | [Link](./src/main/java/org/example/leetcode/Q0021.java) | |
 | 20210717 | 141 | 环形链表 | 简单 | 哈希表、链表、双指针 | [Link](https://leetcode-cn.com/problems/linked-list-cycle/) | [Link](./src/main/java/org/example/leetcode/Q0141.java) | |
 | 20210717 | 剑指 Offer 42 | 连续子数组的最大和 | 简单 | 数组、分治、动态规划 | [Link](https://leetcode-cn.com/problems/lian-xu-zi-shu-zu-de-zui-da-he-lcof/) | [Link](./src/main/java/org/example/jianzhioffer/Q0042.java) | 题目与 《53.最大子序和》 一致 |
