@@ -6,6 +6,7 @@
 
 | 日期 | 编号 | 题目 | 难度 | 类型 | 链接 | 题解 | 备注 |
 | :----: | :----: | :----: | :----: | :----: | :----: | :----: | :----: |
+| 20210719 | 232 | 用栈实现队列 | 简单 | 栈、设计、队列 | [Link](https://leetcode-cn.com/problems/implement-queue-using-stacks/) | [Link](./src/main/java/org/example/leetcode/Q0232.java) | |
 | 20210719 | 20 | 有效的括号 | 简单 | 栈、字符串 | [Link](https://leetcode-cn.com/problems/valid-parentheses/) | [Link](./src/main/java/org/example/leetcode/Q0020.java) | |
 | 20210718 | 83 | 删除排序链表中的重复元素 | 简单 | 链表 | [Link](https://leetcode-cn.com/problems/remove-duplicates-from-sorted-list/) | [Link](./src/main/java/org/example/leetcode/Q0083.java) | |
 | 20210718 | 206 | 反转链表 | 简单 | 递归、链表 | [Link](https://leetcode-cn.com/problems/reverse-linked-list/) | [Link](./src/main/java/org/example/leetcode/Q0206.java) | |
