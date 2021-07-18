@@ -6,6 +6,7 @@
 
 | 日期 | 编号 | 题目 | 难度 | 类型 | 链接 | 题解 | 备注 |
 | :----: | :----: | :----: | :----: | :----: | :----: | :----: | :----: |
+| 20210719 | 20 | 有效的括号 | 简单 | 栈、字符串 | [Link](https://leetcode-cn.com/problems/valid-parentheses/) | [Link](./src/main/java/org/example/leetcode/Q0020.java) | |
 | 20210718 | 83 | 删除排序链表中的重复元素 | 简单 | 链表 | [Link](https://leetcode-cn.com/problems/remove-duplicates-from-sorted-list/) | [Link](./src/main/java/org/example/leetcode/Q0083.java) | |
 | 20210718 | 206 | 反转链表 | 简单 | 递归、链表 | [Link](https://leetcode-cn.com/problems/reverse-linked-list/) | [Link](./src/main/java/org/example/leetcode/Q0206.java) | |
 | 20210718 | 面试题 10.02 | 变位词组 | 中等 | 哈希表、字符串、排序 | [Link](https://leetcode-cn.com/problems/group-anagrams-lcci/) | [Link](./src/main/java/org/example/interview10/Q0002.java) | |
