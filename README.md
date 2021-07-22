@@ -6,6 +6,7 @@
 
 | 日期 | 编号 | 题目 | 难度 | 类型 | 链接 | 题解 | 备注 |
 | :----: | :----: | :----: | :----: | :----: | :----: | :----: | :----: |
+| 20210722 | 102 | 二叉树的层序遍历 | 简单 | 树、广度优先搜索、二叉树 | [Link](https://leetcode-cn.com/problems/binary-tree-level-order-traversal/) | [Link](./src/main/java/org/example/leetcode/Q0102.java) | |
 | 20210721 | 145 | 二叉树的后序遍历 | 简单 | 栈、树、深度优先搜索、二叉树 | [Link](https://leetcode-cn.com/problems/binary-tree-postorder-traversal/) | [Link](./src/main/java/org/example/leetcode/Q0145.java) | |
 | 20210721 | 94 | 二叉树的中序遍历 | 简单 | 栈、树、深度优先搜索、二叉树 | [Link](https://leetcode-cn.com/problems/binary-tree-inorder-traversal/) | [Link](./src/main/java/org/example/leetcode/Q0094.java) | |
 | 20210721 | 144 | 二叉树的前序遍历 | 简单 | 栈、树、深度优先搜索、二叉树 | [Link](https://leetcode-cn.com/problems/binary-tree-preorder-traversal/) | [Link](./src/main/java/org/example/leetcode/Q0144.java) | |
