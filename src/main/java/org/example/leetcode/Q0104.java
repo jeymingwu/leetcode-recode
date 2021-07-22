@@ -1,5 +1,7 @@
 package org.example.leetcode;
 
+import java.util.LinkedList;
+import java.util.Queue;
 import java.util.Stack;
 
 /**
@@ -20,38 +22,69 @@ public class Q0104 {
 
     public int maxDepth(TreeNode root) {
 
+        // 方法一：想多了，解法复杂化（虽然也是使用了广度优先）
+//        if (root == null) {
+//            return 0;
+//        }
+//
+//        int depth = 0, maxDepth = Integer.MIN_VALUE;
+//        TreeNode prev = null;
+//
+//        Stack<TreeNode> stack = new Stack<>();
+//        stack.push(root);
+//
+//        while (!stack.empty()) {
+//
+//            TreeNode pop = stack.pop();
+//
+//            if (prev != null && (pop.left == prev || pop.right == prev)) {
+//                --depth;
+//            } else {
+//                if (pop.right != null) {
+//                    stack.push(pop);
+//                    stack.push(pop.right);
+//                }
+//                if (pop.left != null) {
+//                    stack.push(pop);
+//                    stack.push(pop.left);
+//                }
+//                ++depth;
+//            }
+//            prev = pop;
+//            maxDepth = Math.max(maxDepth, depth);
+//        }
+//
+//        return maxDepth;
+
+        // 方法二：广度优先
+
         if (root == null) {
             return 0;
         }
 
-        int depth = 0, maxDepth = Integer.MIN_VALUE;
-        TreeNode prev = null;
+        Queue<TreeNode> queue = new LinkedList<>();
+        queue.offer(root);
+        int count = 0;
 
-        Stack<TreeNode> stack = new Stack<>();
-        stack.push(root);
-
-        while (!stack.empty()) {
-
-            TreeNode pop = stack.pop();
-
-            if (prev != null && (pop.left == prev || pop.right == prev)) {
-                --depth;
-            } else {
-                if (pop.right != null) {
-                    stack.push(pop);
-                    stack.push(pop.right);
+        while (!queue.isEmpty()) {
+            int size = queue.size();
+            while (size > 0) {
+                TreeNode poll = queue.poll();
+                if (poll.left != null) {
+                    queue.offer(poll.left);
                 }
-                if (pop.left != null) {
-                    stack.push(pop);
-                    stack.push(pop.left);
+                if (poll.right != null) {
+                    queue.offer(poll.right);
                 }
-                ++depth;
+                --size;
             }
-            prev = pop;
-            maxDepth = Math.max(maxDepth, depth);
+            ++count;
         }
 
-        return maxDepth;
+        return count;
+
+        // 方法三：递归（深度优先）
+//        return root == null ? 0 : Math.max(maxDepth(root.left), maxDepth(root.right)) + 1;
     }
 
     public static void main(String[] args) {
