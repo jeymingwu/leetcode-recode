@@ -17,31 +17,51 @@ public class Q0700 {
 
     public TreeNode searchBST(TreeNode root, int val) {
 
-        if (root == null) {
-            return null;
+        // 方法一：用了广度优先搜索（杀鸡用牛刀，并不是最优解）
+        // 二叉搜索树特征：
+        // 1.任一节点均大于其的左子节点；
+        // 2.任一节点均小于其的右子节点；
+
+//        if (root == null) {
+//            return null;
+//        }
+//
+//        Queue<TreeNode> queue = new LinkedList<>();
+//        queue.offer(root);
+//
+//        while (!queue.isEmpty()) {
+//
+//            int size = queue.size();
+//            while (size > 0) {
+//                TreeNode poll = queue.poll();
+//                if (poll.val == val) {
+//                    return poll;
+//                }
+//                if (poll.left != null) {
+//                    queue.offer(poll.left);
+//                }
+//                if (poll.right != null) {
+//                    queue.offer(poll.right);
+//                }
+//                --size;
+//            }
+//        }
+//        return null;
+
+        // 方法二：递归
+//        if (root == null || root.val == val) {
+//            return root;
+//        }
+//        return root.val > val ? searchBST(root.left, val) : searchBST(root.right, val);
+
+        // 方法三：迭代
+        while (root != null && root.val != val) {
+
+            root = root.val > val ? root.left : root.right;
+
         }
 
-        Queue<TreeNode> queue = new LinkedList<>();
-        queue.offer(root);
-
-        while (!queue.isEmpty()) {
-
-            int size = queue.size();
-            while (size > 0) {
-                TreeNode poll = queue.poll();
-                if (poll.val == val) {
-                    return poll;
-                }
-                if (poll.left != null) {
-                    queue.offer(poll.left);
-                }
-                if (poll.right != null) {
-                    queue.offer(poll.right);
-                }
-                --size;
-            }
-        }
-        return null;
+        return root;
     }
 
 }
