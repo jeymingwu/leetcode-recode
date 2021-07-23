@@ -6,7 +6,7 @@
 
 | 日期 | 编号 | 题目 | 难度 | 类型 | 链接 | 题解 | 备注 |
 | :----: | :----: | :----: | :----: | :----: | :----: | :----: | :----: |
-| 20210723 | 701 | 二叉搜索树中的插入操作 | 简单 | 树、二叉搜索树、二叉树 | [Link]( * https://leetcode-cn.com/problems/insert-into-a-binary-search-tree/) | [Link](./src/main/java/org/example/leetcode/Q0701.java) | |
+| 20210723 | 701 | 二叉搜索树中的插入操作 | 简单 | 树、二叉搜索树、二叉树 | [Link](https://leetcode-cn.com/problems/insert-into-a-binary-search-tree/) | [Link](./src/main/java/org/example/leetcode/Q0701.java) | |
 | 20210723 | 700 | 二叉搜索树中的搜索 | 简单 | 树、二叉搜索树、二叉树 | [Link](https://leetcode-cn.com/problems/search-in-a-binary-search-tree/) | [Link](./src/main/java/org/example/leetcode/Q0700.java) | |
 | 20210723 | 112 | 路径总和 | 简单 | 树、深度优先搜索、二叉树 | [Link](https://leetcode-cn.com/problems/path-sum/) | [Link](./src/main/java/org/example/leetcode/Q0112.java) | |
 | 20210723 | 226 | 翻转二叉树 | 简单 | 树、深度优先搜索、广度优先搜索、二叉树 | [Link](https://leetcode-cn.com/problems/invert-binary-tree/) | [Link](./src/main/java/org/example/leetcode/Q0226.java) | |
