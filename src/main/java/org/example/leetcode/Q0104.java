@@ -22,7 +22,7 @@ public class Q0104 {
 
     public int maxDepth(TreeNode root) {
 
-        // 方法一：想多了，解法复杂化（虽然也是使用了广度优先）
+        // 方法一：想多了，解法复杂化（虽然也是使用了深度优先）
 //        if (root == null) {
 //            return 0;
 //        }
