@@ -36,24 +36,47 @@ public class Q0075 {
 //        }
 
         // 方法三：遍历交换（单指针）
-        int index = 0;
+//        int index = 0;
+//        int length = nums.length;
+//
+//        for (int i = 0; i < length; ++i) {
+//
+//            if (nums[i] == 0) {
+//                int tmp = nums[index];
+//                nums[index++] = nums[i];
+//                nums[i] = tmp;
+//            }
+//        }
+//
+//        for (int i = index; i < length; ++i) {
+//
+//            if (nums[i] == 1) {
+//                int tmp = nums[index];
+//                nums[index++] = nums[i];
+//                nums[i] = tmp;
+//            }
+//        }
+
+        // 方法四：双指针
+
+        int p = 0, q = 0;
         int length = nums.length;
 
         for (int i = 0; i < length; ++i) {
 
-            if (nums[i] == 0) {
-                int tmp = nums[index];
-                nums[index++] = nums[i];
-                nums[i] = tmp;
-            }
-        }
-
-        for (int i = index; i < length; ++i) {
-
             if (nums[i] == 1) {
-                int tmp = nums[index];
-                nums[index++] = nums[i];
+                int tmp = nums[q];
+                nums[q++] = nums[i];
                 nums[i] = tmp;
+            } else if (nums[i] == 0) {
+                int tmp = nums[p];
+                nums[p++] = nums[i];
+                nums[i] = tmp;
+                if (p < q) {
+                    tmp = nums[q];
+                    nums[q++] = nums[i];
+                    nums[i] = tmp;
+                }
             }
         }
     }
