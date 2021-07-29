@@ -7,8 +7,8 @@
 | 日期 | 编号 | 题目 | 难度 | 类型 | 链接 | 题解 | 备注 |
 | :----: | :----: | :----: | :----: | :----: | :----: | :----: | :----: |
 | 20210728 | 75 | 颜色分类 | 中等 | 数组、双指针、排序 | [Link](https://leetcode-cn.com/problems/sort-colors/) | [Link](./src/main/java/org/example/leetcode/Q0075.java) | |
-| 20210727 | 671 | 从相邻元素对还原数组 | 简单 | 树、深度优先搜索、二叉树 | [Link](https://leetcode-cn.com/problems/second-minimum-node-in-a-binary-tree/) | [Link](./src/main/java/org/example/leetcode/Q0671.java) | |
-| 20210725 | 98 | 从相邻元素对还原数组 | 中等 | 树、深度优先搜索、二叉搜索树、二叉树 | [Link](https://leetcode-cn.com/problems/validate-binary-search-tree/) | [Link](./src/main/java/org/example/leetcode/Q0098.java) | |
+| 20210727 | 671 | 二叉树中第二小的节点 | 简单 | 树、深度优先搜索、二叉树 | [Link](https://leetcode-cn.com/problems/second-minimum-node-in-a-binary-tree/) | [Link](./src/main/java/org/example/leetcode/Q0671.java) | |
+| 20210725 | 98 | 验证二叉搜索树 | 中等 | 树、深度优先搜索、二叉搜索树、二叉树 | [Link](https://leetcode-cn.com/problems/validate-binary-search-tree/) | [Link](./src/main/java/org/example/leetcode/Q0098.java) | |
 | 20210725 | 1743 | 从相邻元素对还原数组 | 中等 | 数组、哈希表 | [Link](https://leetcode-cn.com/problems/restore-the-array-from-adjacent-pairs/) | [Link](./src/main/java/org/example/leetcode/Q1743.java) | |
 | 20210725 | 235 | 二叉搜索树的最近公共祖先 | 简单 | 树、深度优先搜索、二叉搜索树、二叉树 | [Link](https://leetcode-cn.com/problems/lowest-common-ancestor-of-a-binary-search-tree/) | [Link](./src/main/java/org/example/leetcode/Q0235.java) | |
 | 20210724 | 653 | 两数之和 IV - 输入 BST | 简单 | 树、深度优先搜索、广度优先搜索、二叉搜索树、哈希表、双指针、二叉树 | [Link](https://leetcode-cn.com/problems/two-sum-iv-input-is-a-bst/) | [Link](./src/main/java/org/example/leetcode/Q0653.java) | |
