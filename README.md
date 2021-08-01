@@ -6,6 +6,7 @@
 
 | 日期 | 编号 | 题目 | 难度 | 类型 | 链接 | 题解 | 备注 |
 | :----: | :----: | :----: | :----: | :----: | :----: | :----: | :----: |
+| 20210731 | 987 | 二叉树的垂序遍历 | 困难 | 树、深度优先搜索、广度优先搜索、哈希表、二叉树 | [Link](https://leetcode-cn.com/problems/vertical-order-traversal-of-a-binary-tree/) | [Link](./src/main/java/org/example/leetcode/Q0987.java) | |
 | 20210728 | 75 | 颜色分类 | 中等 | 数组、双指针、排序 | [Link](https://leetcode-cn.com/problems/sort-colors/) | [Link](./src/main/java/org/example/leetcode/Q0075.java) | |
 | 20210727 | 671 | 二叉树中第二小的节点 | 简单 | 树、深度优先搜索、二叉树 | [Link](https://leetcode-cn.com/problems/second-minimum-node-in-a-binary-tree/) | [Link](./src/main/java/org/example/leetcode/Q0671.java) | |
 | 20210725 | 98 | 验证二叉搜索树 | 中等 | 树、深度优先搜索、二叉搜索树、二叉树 | [Link](https://leetcode-cn.com/problems/validate-binary-search-tree/) | [Link](./src/main/java/org/example/leetcode/Q0098.java) | |
