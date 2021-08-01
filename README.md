@@ -6,6 +6,7 @@
 
 | 日期 | 编号 | 题目 | 难度 | 类型 | 链接 | 题解 | 备注 |
 | :----: | :----: | :----: | :----: | :----: | :----: | :----: | :----: |
+| 20210802 | 剑指 Offer 09 | 用两个栈实现队列 | 简单 | 数组、二分查找、矩阵、排序、堆（优先队列） | [Link](https://leetcode-cn.com/problems/yong-liang-ge-zhan-shi-xian-dui-lie-lcof/) | [Link](./src/main/java/org/example/jianzhioffer/Q0009.java) | |
 | 20210801 | 1337 | 矩阵中战斗力最弱的 K 行 | 简单 | 数组、二分查找、矩阵、排序、堆（优先队列） | [Link](https://leetcode-cn.com/problems/the-k-weakest-rows-in-a-matrix/) | [Link](./src/main/java/org/example/leetcode/Q1337.java) | |
 | 20210731 | 987 | 二叉树的垂序遍历 | 困难 | 树、深度优先搜索、广度优先搜索、哈希表、二叉树 | [Link](https://leetcode-cn.com/problems/vertical-order-traversal-of-a-binary-tree/) | [Link](./src/main/java/org/example/leetcode/Q0987.java) | |
 | 20210728 | 75 | 颜色分类 | 中等 | 数组、双指针、排序 | [Link](https://leetcode-cn.com/problems/sort-colors/) | [Link](./src/main/java/org/example/leetcode/Q0075.java) | |
