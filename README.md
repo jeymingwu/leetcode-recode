@@ -6,6 +6,7 @@
 
 | 日期 | 编号 | 题目 | 难度 | 类型 | 链接 | 题解 | 备注 |
 | :----: | :----: | :----: | :----: | :----: | :----: | :----: | :----: |
+| 20210802 | 面试题3 | 数组中重复的数字 | 简单 | 数组、哈希表、排序 | [Link](https://leetcode-cn.com/problems/fei-bo-na-qi-shu-lie-lcof/) | [Link](./src/main/java/org/example/interview/Q0003.java) | |
 | 20210802 | 剑指 Offer 10 | 斐波那契数列 | 简单 | 记忆化搜索、数学、动态规划 | [Link](https://leetcode-cn.com/problems/fei-bo-na-qi-shu-lie-lcof/) | [Link](./src/main/java/org/example/jianzhioffer/Q0010.java) | |
 | 20210802 | 剑指 Offer 09 | 用两个栈实现队列 | 简单 | 数组、二分查找、矩阵、排序、堆（优先队列） | [Link](https://leetcode-cn.com/problems/yong-liang-ge-zhan-shi-xian-dui-lie-lcof/) | [Link](./src/main/java/org/example/jianzhioffer/Q0009.java) | |
 | 20210801 | 1337 | 矩阵中战斗力最弱的 K 行 | 简单 | 数组、二分查找、矩阵、排序、堆（优先队列） | [Link](https://leetcode-cn.com/problems/the-k-weakest-rows-in-a-matrix/) | [Link](./src/main/java/org/example/leetcode/Q1337.java) | |
