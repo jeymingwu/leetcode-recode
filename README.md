@@ -6,6 +6,7 @@
 
 | 日期 | 编号 | 题目 | 难度 | 类型 | 链接 | 题解 | 备注 |
 | :----: | :----: | :----: | :----: | :----: | :----: | :----: | :----: |
+| 20210805 | 剑指 Offer 05 | 替换空格 | 简单 | 字符串 | [Link](https://leetcode-cn.com/problems/ti-huan-kong-ge-lcof/) | [Link](./src/main/java/org/example/jianzhioffer/Q0005.java) | |
 | 20210805 | 剑指 Offer 56 - II | 数组中数字出现的次数 II | 中等 | 位运算、数组 | [Link](https://leetcode-cn.com/problems/shu-zu-zhong-shu-zi-chu-xian-de-ci-shu-ii-lcof/) | [Link](./src/main/java/org/example/jianzhioffer/Q0056_II.java) | |
 | 20210805 | 剑指 Offer 56 - I | 数组中数字出现的次数 | 中等 | 位运算、数组 | [Link](https://leetcode-cn.com/problems/shu-zu-zhong-shu-zi-chu-xian-de-ci-shu-lcof/) | [Link](./src/main/java/org/example/jianzhioffer/Q0056_I.java) | |
 | 20210803 | 剑指 Offer 57 | 和为s的两个数字 | 简单 | 数组、双指针、二分查找 | [Link](https://leetcode-cn.com/problems/he-wei-sde-liang-ge-shu-zi-lcof/) | [Link](./src/main/java/org/example/jianzhioffer/Q0057.java) | |
