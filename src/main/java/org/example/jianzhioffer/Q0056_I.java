@@ -10,7 +10,7 @@ package org.example.jianzhioffer;
  * @date : 2021-08-05
  **/
 
-public class Q0056_1 {
+public class Q0056_I {
 
     public int[] singleNumbers(int[] nums) {
 
