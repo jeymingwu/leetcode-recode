@@ -6,6 +6,7 @@
 
 | 日期 | 编号 | 题目 | 难度 | 类型 | 链接 | 题解 | 备注 |
 | :----: | :----: | :----: | :----: | :----: | :----: | :----: | :----: |
+| 20210807 | 剑指 Offer 22 | 链表中倒数第k个节点 | 简单 | 数组、双指针 | [Link](https://leetcode-cn.com/problems/lian-biao-zhong-dao-shu-di-kge-jie-dian-lcof/) | [Link](./src/main/java/org/example/jianzhioffer/Q0022.java) | |
 | 20210806 | 剑指 Offer 27 | 二叉树的镜像 | 简单 | 树、深度优先搜索、广度优先搜索、二叉树 | [Link](https://leetcode-cn.com/problems/er-cha-shu-de-jing-xiang-lcof/) | [Link](./src/main/java/org/example/jianzhioffer/Q0027.java) | [与 226 题一致](./src/main/java/org/example/leetcode/Q0226.java) |
 | 20210806 | 剑指 Offer 25 | 合并两个排序的链表 | 简单 | 递归、链表 | [Link](https://leetcode-cn.com/problems/he-bing-liang-ge-pai-xu-de-lian-biao-lcof/) | [Link](./src/main/java/org/example/jianzhioffer/Q0025.java) | [与 21 题一致](./src/main/java/org/example/leetcode/Q0021.java) |
 | 20210805 | 剑指 Offer 06 | 从尾到头打印链表 | 简单 | 栈、递归、链表、双指针 | [Link](https://leetcode-cn.com/problems/cong-wei-dao-tou-da-yin-lian-biao-lcof/) | [Link](./src/main/java/org/example/jianzhioffer/Q0006.java) | |
