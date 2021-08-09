@@ -6,6 +6,7 @@
 
 | 日期 | 编号 | 题目 | 难度 | 类型 | 链接 | 题解 | 备注 |
 | :----: | :----: | :----: | :----: | :----: | :----: | :----: | :----: |
+| 20210809 | 剑指 Offer 24 | 反转链表 | 简单 | 递归、链表 | [Link](https://leetcode-cn.com/problems/fan-zhuan-lian-biao-lcof/) | [Link](./src/main/java/org/example/jianzhioffer/Q0024.java) | [与 206 题一致](./src/main/java/org/example/leetcode/Q0206.java) |
 | 20210809 | 剑指 Offer 17 | 打印从1到最大的n位数 | 简单 | 数组、数学 | [Link](https://leetcode-cn.com/problems/da-yin-cong-1dao-zui-da-de-nwei-shu-lcof/) | [Link](./src/main/java/org/example/jianzhioffer/Q0017.java) | |
 | 20210809 | 剑指 Offer 18 | 删除链表的节点 | 简单 | 链表 | [Link](https://leetcode-cn.com/problems/shan-chu-lian-biao-de-jie-dian-lcof/) | [Link](./src/main/java/org/example/jianzhioffer/Q0018.java) | |
 | 20210807 | 剑指 Offer 21 | 调整数组顺序使奇数位于偶数前面 | 简单 | 数组、双指针、排序 | [Link](https://leetcode-cn.com/problems/diao-zheng-shu-zu-shun-xu-shi-qi-shu-wei-yu-ou-shu-qian-mian-lcof/) | [Link](./src/main/java/org/example/jianzhioffer/Q0021.java) | |
