@@ -4,6 +4,8 @@
 
 > flag：每天至少完成每日一题！
 
+[leetcode - SQL记录](./README-SQL.md)
+
 | 日期 | 编号 | 题目 | 难度 | 类型 | 链接 | 题解 | 备注 |
 | :----: | :----: | :----: | :----: | :----: | :----: | :----: | :----: |
 | 20210810 | 剑指 Offer 28 | 对称的二叉树 | 简单 | 树、广度优先搜索、深度优先搜索、二叉树 | [Link](https://leetcode-cn.com/problems/dui-cheng-de-er-cha-shu-lcof/) | [Link](./src/main/java/org/example/jianzhioffer/Q0028.java) | [与 101 题一致](./src/main/java/org/example/leetcode/Q0101.java) |
