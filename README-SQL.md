@@ -4,6 +4,7 @@
 
 | 日期 | 编号 | 题目 | 难度 | 类型 | 链接 | 题解 | 备注 |
 | :----: | :----: | :----: | :----: | :----: | :----: | :----: | :----: |
+| 20210813 | 183 | 从不订购的客户 | 简单 | 数据库 | [Link](https://leetcode-cn.com/problems/customers-who-never-order/) | [Link](./src/main/java/org/example/sql/Q0183.sql) |  |
 | 20210812 | 177 | 第N高的薪水 | 中等 | 数据库 | [Link](https://leetcode-cn.com/problems/nth-highest-salary/) | [Link](./src/main/java/org/example/sql/Q0177.sql) |  |
 | 20210812 | 176 | 第二高的薪水 | 简单 | 数据库 | [Link](https://leetcode-cn.com/problems/second-highest-salary/) | [Link](./src/main/java/org/example/sql/Q0176.sql) |  |
 | 20210812 | 175 | 组合两个表 | 简单 | 数据库 | [Link](https://leetcode-cn.com/problems/combine-two-tables/) | [Link](./src/main/java/org/example/sql/Q0175.sql) |  |
