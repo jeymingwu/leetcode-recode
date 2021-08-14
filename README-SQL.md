@@ -4,6 +4,7 @@
 
 | 日期 | 编号 | 题目 | 难度 | 类型 | 链接 | 题解 | 备注 |
 | :----: | :----: | :----: | :----: | :----: | :----: | :----: | :----: |
+| 20210814 | 197 | 上升的温度 | 简单 | 数据库 | [Link](https://leetcode-cn.com/problems/rising-temperature/) | [Link](./src/main/java/org/example/sql/Q0197.sql) |  |
 | 20210814 | 196 | 删除重复的电子邮箱 | 简单 | 数据库 | [Link](https://leetcode-cn.com/problems/delete-duplicate-emails/) | [Link](./src/main/java/org/example/sql/Q0196.sql) |  |
 | 20210813 | 183 | 从不订购的客户 | 简单 | 数据库 | [Link](https://leetcode-cn.com/problems/customers-who-never-order/) | [Link](./src/main/java/org/example/sql/Q0183.sql) |  |
 | 20210812 | 177 | 第N高的薪水 | 中等 | 数据库 | [Link](https://leetcode-cn.com/problems/nth-highest-salary/) | [Link](./src/main/java/org/example/sql/Q0177.sql) |  |
