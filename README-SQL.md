@@ -4,6 +4,7 @@
 
 | 日期 | 编号 | 题目 | 难度 | 类型 | 链接 | 题解 | 备注 |
 | :----: | :----: | :----: | :----: | :----: | :----: | :----: | :----: |
+| 20210815 | 596 | 超过5名学生的课 | 简单 | 数据库 | [Link](https://leetcode-cn.com/problems/classes-more-than-5-students/) | [Link](./src/main/java/org/example/sql/Q0596.sql) |  |
 | 20210815 | 595 | 大的国家 | 简单 | 数据库 | [Link](https://leetcode-cn.com/problems/big-countries/) | [Link](./src/main/java/org/example/sql/Q0595.sql) |  |
 | 20210814 | 197 | 上升的温度 | 简单 | 数据库 | [Link](https://leetcode-cn.com/problems/rising-temperature/) | [Link](./src/main/java/org/example/sql/Q0197.sql) |  |
 | 20210814 | 196 | 删除重复的电子邮箱 | 简单 | 数据库 | [Link](https://leetcode-cn.com/problems/delete-duplicate-emails/) | [Link](./src/main/java/org/example/sql/Q0196.sql) |  |
