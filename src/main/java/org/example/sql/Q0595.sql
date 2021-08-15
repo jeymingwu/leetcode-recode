@@ -30,6 +30,9 @@ SELECT name, population, area
 FROM World
 WHERE area > 3000000 OR population > 25000000;
 
+# 注意，OR 可能导致索引失效（多列索引，一个生效，一个失效）；
+# UNION 可以避免这个问题，但引出了结果排序去重耗时这个问题；
+# 实际生产中，两种方法均尝试，哪个耗时较小选用哪个
 # 或者
 
 SELECT name, population, area
