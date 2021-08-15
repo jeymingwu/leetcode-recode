@@ -31,4 +31,11 @@
 SELECT *
 FROM cinema
 WHERE description != 'boring' AND id % 2 = 1
-ORDER BY rating DESC
+ORDER BY rating DESC;
+
+# 另一种写法
+
+SELECT *
+FROM cinema
+WHERE id & 1 AND description <> 'boring'
+ORDER BY rating DESC;
