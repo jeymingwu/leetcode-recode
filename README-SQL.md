@@ -4,6 +4,7 @@
 
 | 日期 | 编号 | 题目 | 难度 | 类型 | 链接 | 题解 | 备注 |
 | :----: | :----: | :----: | :----: | :----: | :----: | :----: | :----: |
+| 20210816 | 184 | 部门工资最高的员工 | 简单 | 数据库 | [Link](https://leetcode-cn.com/problems/department-highest-salary/) | [Link](./src/main/java/org/example/sql/Q0184.sql) |  |
 | 20210815 | 627 | 变更性别 | 简单 | 数据库 | [Link](https://leetcode-cn.com/problems/swap-salary/) | [Link](./src/main/java/org/example/sql/Q0627.sql) |  |
 | 20210815 | 620 | 有趣的电影 | 简单 | 数据库 | [Link](https://leetcode-cn.com/problems/not-boring-movies/) | [Link](./src/main/java/org/example/sql/Q0620.sql) |  |
 | 20210815 | 596 | 超过5名学生的课 | 简单 | 数据库 | [Link](https://leetcode-cn.com/problems/classes-more-than-5-students/) | [Link](./src/main/java/org/example/sql/Q0596.sql) |  |
