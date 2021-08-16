@@ -35,11 +35,16 @@
 # https://leetcode-cn.com/problems/department-highest-salary/
 
 SELECT d.Name AS Department, e.Name AS Employee, e.Salary AS Salary
-FROM Employee e
-         LEFT JOIN
+FROM Employee e,
      (
          SELECT max(Salary) AS maxSalary, DepartmentId AS DepartmentId
          FROM Employee
          GROUP BY DepartmentId
-     ) AS tmp ON tmp.DepartmentId = e.DepartmentId, Department d
-WHERE e.Salary = tmp.maxSalary AND e.DepartmentId = d.Id
+     ) AS tmp, Department d
+WHERE e.Salary = tmp.maxSalary AND e.DepartmentId = d.Id AND tmp.DepartmentId = e.DepartmentId;
+
+# 另一种写法
+
+SELECT d.Name AS Department, e.Name AS Employee, e.Salary AS Salary
+FROM Employee e JOIN Department d ON e.DepartmentId = d.Id
+WHERE (e.DepartmentId, e.Salary) IN (SELECT DepartmentId, MAX(Salary) FROM Employee GROUP BY DepartmentId);
