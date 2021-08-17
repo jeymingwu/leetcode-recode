@@ -8,6 +8,7 @@
 
 | 日期 | 编号 | 题目 | 难度 | 类型 | 链接 | 题解 | 备注 |
 | :----: | :----: | :----: | :----: | :----: | :----: | :----: | :----: |
+| 20210817 | 551 | 学生出勤记录 I | 简单 | 字符串 | [Link](https://leetcode-cn.com/problems/student-attendance-record-i/) | [Link](./src/main/java/org/example/leetcode/Q0551.java) | |
 | 20210810 | 剑指 Offer 28 | 对称的二叉树 | 简单 | 树、广度优先搜索、深度优先搜索、二叉树 | [Link](https://leetcode-cn.com/problems/dui-cheng-de-er-cha-shu-lcof/) | [Link](./src/main/java/org/example/jianzhioffer/Q0028.java) | [与 101 题一致](./src/main/java/org/example/leetcode/Q0101.java) |
 | 20210809 | 剑指 Offer 24 | 反转链表 | 简单 | 递归、链表 | [Link](https://leetcode-cn.com/problems/fan-zhuan-lian-biao-lcof/) | [Link](./src/main/java/org/example/jianzhioffer/Q0024.java) | [与 206 题一致](./src/main/java/org/example/leetcode/Q0206.java) |
 | 20210809 | 剑指 Offer 17 | 打印从1到最大的n位数 | 简单 | 数组、数学 | [Link](https://leetcode-cn.com/problems/da-yin-cong-1dao-zui-da-de-nwei-shu-lcof/) | [Link](./src/main/java/org/example/jianzhioffer/Q0017.java) | |
